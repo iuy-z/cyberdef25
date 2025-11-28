@@ -37,8 +37,8 @@ pipeline {
             steps {
                 echo "Running container using docker-compose..."
                 sh '''
-                    docker compose down || true
-                    docker compose up --build -d
+                    docker-compose down || true
+                    docker-compose up --build -d
                 '''
             }
         }
