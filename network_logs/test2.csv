@@ -1,0 +1,4 @@
+bytes_in,bytes_out,packets,duration
+100,90,15,2
+3000,2800,200,30
+70,50,12,2

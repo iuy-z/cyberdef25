@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  cyberdef25:
+    image: cyberdef25:latest
+    container_name: cyberdef25_inference
+    volumes:
+      - ./network_logs:/input/logs
+      - ./output:/output
